@@ -29,7 +29,7 @@
 .img-circle {
     margin: 10px;
     border-radius: 50%;
-    display: inline-block;
+    /*display: inline-block;*/
     border: 2px;
     width: 175px;
     height: 175px;
