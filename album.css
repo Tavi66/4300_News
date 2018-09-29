@@ -5,10 +5,18 @@
     background-color: white;
     justify-content: center;
 }
-    .container#c1 {
-        background-color: transparent;
-        /*color: white;*/
-    }
+
+.navbar-nav>li {
+    background-color: transparent;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height:auto;
+    margin:auto;
+}
 
 #buttonMenu {
     background-color: transparent;
