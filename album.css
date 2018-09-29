@@ -2,10 +2,19 @@
     margin-right: auto;
     margin-left: auto;
     max-width: 1200px; /* or 950px */
-    background-color: lightgrey
+    background-color: white;
+    justify-content: center;
+}
+    .container#c1 {
+        background-color: transparent;
+        /*color: white;*/
+    }
+
+#buttonMenu {
+    background-color: transparent;
 }
 
-.col-md-4{
+.col-md-4 {
     padding-top: 10px
 }
 
@@ -45,4 +54,9 @@
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+}
+
+nav#nav
+{
+    flex-direction:column;
 }
