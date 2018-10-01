@@ -70,20 +70,68 @@
         </div>
         <!-- Menu -->
 
-        <div class="card bg-transparent">
-            <img class="card-img" style="width: 100%; height: 225px;">
-            <div class="card-img-overlay">
-                <h5 class="card-title; text-center" style="color: black; font-size:36px;">MENU</h5>
-                <img id="appetizers" src="assets/img/appetizers_label.png" alt="APPETIZERS" style="max-width:100%; height: auto;" />
-                <p class="card-text"> EMPTY </p>
-                <img id="desserts" src="assets/img/desserts_label.png" alt="DESSERTS" style="max-width:100%; height: auto;" />
-                <p class="card-text"> EMPTY </p>
-            </div>
-            <div class="container" style="position: center; padding-bottom: 25%; display:block;">
 
-            </div>
+        <h5 class="card-title; text-center" style="color: black; font-size:36px; padding: 20px;">MENU</h5>
+
+        <img id="appetizers" src="assets/img/appetizers_label.png" alt="APPETIZERS" style="max-width:100%; height: auto;" />
+        <div class="card-group bg-transparent">
+            <p class="card-body" style="display:inline-block; width:auto; object-position:left">
+                Item <br />
+                Description <br />
+                Price <br />
+                <!-- Add data-toggle <- java-script (w/ on-click) to open modal? -->
+                <button class="btn btn-outline-light btn-light" type="button" data-toggle="modal" data-target="#imgModal1">
+                    <span>
+                        <img class="card-img" id="photo" src="assets/img/camera.png" alt="camera" style="width:15px; height: auto;" />
+                    </span>
+                </button>
+            </p>
+            <p class="card-body" style="display:inline-block; width: auto; object-position:right">
+                Item <br />
+                Description <br />
+                Price <br />
+                <button class="btn btn-outline-light btn-light" type="button" data-toggle="modal"   data-target="#imgModal1">
+                    <span>
+                        <img class="card-img" id="photo" src="assets/img/camera.png" alt="camera" style="width:15px; height: auto;" />
+                    </span>
+                </button>
+            </p>
+        </div>
+        <div class="card-group bg-transparent">
+            <p class="card-body" style="display:inline-block; width:auto; object-position:left">
+                Item <br />
+                Description <br />
+                Price <br />
+                <!-- Add data-toggle <- java-script (w/ on-click) to open modal? -->
+                <button class="btn btn-outline-light btn-light" type="button" data-toggle="modal" data-target="#imgModal1">
+                    <span>
+                        <img class="card-img" id="photo" src="assets/img/camera.png" alt="camera" style="width:15px; height: auto;" />
+                    </span>
+                </button>
+            </p>
+            <p class="card-body" style="display:inline-block; width: auto; object-position:right">
+                Item <br />
+                Description <br />
+                Price <br />
+                <button class="btn btn-outline-light btn-light" type="button" data-toggle="modal" data-target="#imgModal1">
+                    <span>
+                        <img class="card-img" id="photo" src="assets/img/camera.png" alt="camera" style="width:15px; height: auto;" />
+                    </span>
+                </button>
+            </p>
         </div>
 
+        <img id="desserts" src="assets/img/desserts_label.png" alt="DESSERTS" style="max-width:100%; height: auto;" />
+        <p class="card-text"> EMPTY </p>
+
+        <div class="container" style="position: center; padding-bottom: 25%; display:block;">
+
+        </div>
+
+        <!-- may need to create one for each img? or add multiple ids to get img -->
+        <div class="modal" id="imgModal1">
+            <img src="assets/img/blank_img.jpg" style="margin-left:192px; margin-top:128px;"/>
+        </div>
 
     </div>
     <!-- Bootstrap core JavaScript
