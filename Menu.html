@@ -76,7 +76,7 @@
         <img id="appetizers" src="assets/img/appetizers_label.png" alt="APPETIZERS" style="max-width:100%; height: auto;" />
         <div class="card-group bg-transparent">
             <p class="card-body" style="display:inline-block; width:auto; object-position:left">
-                Item <br />
+                <b> Item </b> <br />
                 Description <br />
                 Price <br />
                 <!-- Add data-toggle <- java-script (w/ on-click) to open modal? -->
@@ -87,10 +87,10 @@
                 </button>
             </p>
             <p class="card-body" style="display:inline-block; width: auto; object-position:right">
-                Item <br />
+                <b> Item </b> <br />
                 Description <br />
                 Price <br />
-                <button class="btn btn-outline-light btn-light" type="button" data-toggle="modal"   data-target="#imgModal1">
+                <button class="btn btn-outline-light btn-light" type="button" data-toggle="modal" data-target="#imgModal1">
                     <span>
                         <img class="card-img" id="photo" src="assets/img/camera.png" alt="camera" style="width:15px; height: auto;" />
                     </span>
@@ -99,7 +99,7 @@
         </div>
         <div class="card-group bg-transparent">
             <p class="card-body" style="display:inline-block; width:auto; object-position:left">
-                Item <br />
+                <b> Item </b> <br />
                 Description <br />
                 Price <br />
                 <!-- Add data-toggle <- java-script (w/ on-click) to open modal? -->
@@ -110,7 +110,7 @@
                 </button>
             </p>
             <p class="card-body" style="display:inline-block; width: auto; object-position:right">
-                Item <br />
+                <b> Item </b> <br />
                 Description <br />
                 Price <br />
                 <button class="btn btn-outline-light btn-light" type="button" data-toggle="modal" data-target="#imgModal1">
@@ -128,9 +128,10 @@
 
         </div>
 
-        <!-- may need to create one for each img? or add multiple ids to get img -->
+        <!-- may need to create one for each img? or add multiple ids ( or data-slides) to get img -->
         <div class="modal" id="imgModal1">
-            <img src="assets/img/blank_img.jpg" style="margin-left:192px; margin-top:128px;"/>
+            <img src="assets/img/blank_img.jpg" style="margin-left:192px; margin-top:128px;" />
+                    <p class="figure-caption" style="margin-left: 256px; margin-top: -90px;"> This is item ... </p>
         </div>
 
     </div>
